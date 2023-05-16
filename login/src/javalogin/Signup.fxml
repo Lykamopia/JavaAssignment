@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../build/classes/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javalogin.SignupController">
+   <children>
+      <PasswordField fx:id="tfPassword" layoutX="276.0" layoutY="160.0" />
+      <TextField fx:id="tfUsername" layoutX="276.0" layoutY="96.0" />
+      <Label alignment="CENTER" layoutX="226.0" layoutY="14.0" prefHeight="38.0" prefWidth="149.0" styleClass="title" stylesheets="@../../build/classes/login.css" text="Sign up" />
+      <Label layoutX="276.0" layoutY="65.0" prefHeight="31.0" prefWidth="74.0" text="Username" />
+      <Label layoutX="276.0" layoutY="129.0" prefHeight="31.0" prefWidth="74.0" text="Password" />
+      <Label layoutX="276.0" layoutY="193.0" prefHeight="31.0" prefWidth="74.0" text="E-mail" />
+      <TextField fx:id="tfEmail" layoutX="276.0" layoutY="224.0" />
+      <Label layoutX="276.0" layoutY="257.0" prefHeight="31.0" prefWidth="74.0" text="Tel" />
+      <TextField fx:id="tfTel" layoutX="276.0" layoutY="288.0" />
+      <Button fx:id="btnSignup" layoutX="284.0" layoutY="342.0" mnemonicParsing="false" styleClass="btn-signup" text="Sign up" />
+      <ImageView fitHeight="400.0" fitWidth="244.0">
+         <image>
+            <Image url="@images/come.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCancel" layoutX="435.0" layoutY="342.0" mnemonicParsing="false" styleClass="btn-danger" text="Cancel" />
+   </children>
+</AnchorPane>

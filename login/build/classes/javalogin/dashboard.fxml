@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@login.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <Label alignment="CENTER" layoutX="76.0" layoutY="68.0" prefHeight="208.0" prefWidth="447.0" text="You Have Successfully Logged In!">
+         <font>
+            <Font name="HP Simplified Hans Regular" size="31.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.18447214365005493" green="0.9300000071525574" blue="0.120899997651577" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.35906040268456374">
+                     <color>
+                        <Color red="0.10717694461345673" green="0.5657894611358643" blue="0.0654848963022232" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.8825503355704698">
+                     <color>
+                        <Color red="0.7368420958518982" green="0.2080896645784378" blue="0.2080896645784378" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7368420958518982" green="0.2080896645784378" blue="0.2080896645784378" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="205.0" layoutY="24.0" prefHeight="58.0" prefWidth="190.0" text="Congradulations!!!!" textFill="#17a81c">
+         <font>
+            <Font name="HP Simplified Hans Regular" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
