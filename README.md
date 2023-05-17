@@ -1,6 +1,6 @@
 # JavaAssignment
 This is the master repo for java assignment
-# Prerequisites 
+# Prerequisities 
 - java
 - javaFx
 - css
